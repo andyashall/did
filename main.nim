@@ -12,7 +12,7 @@ var today = ""
 
 var done = false
 
-echo "What did you do today? (Type -h for help)"
+echo "What did you do today? (Use [-h] for help)"
 
 while done == false:
   var nextLine = f.readLine() & "\n"
